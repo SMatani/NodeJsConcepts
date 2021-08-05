@@ -1,0 +1,22 @@
+
+Nodejs module types:
+Core : Lightweight module, less functionalities of nodejs, compiled into its binary distribution, loaded automatically when nodejs setFlagsFromString, import core module first.
+
+require();
+http-->crete http Server
+url-->url resolution and parsing
+querystring
+path
+fs-->I/O
+util
+
+syntax example:
+const { Server } = require("http");
+--implemented in Module.js
+var file=require('./file');
+
+
+Local : Created locally in node.js app.
+--implemented in app.js and log.js
+
+ThirdParty/Export  : module represents the current file.

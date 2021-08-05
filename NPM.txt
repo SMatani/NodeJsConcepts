@@ -1,0 +1,13 @@
+NPM --> Node Package Manager
+Command line tool that installs updates 
+Online repository for nodejs Packages
+
+https://www.npmjs.com
+
+Commands
+1. npm -v 
+2. npm install -g
+3. npm help
+
+//Install the Packages 
+1. npm install <package_name> 
