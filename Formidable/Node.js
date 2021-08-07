@@ -3,7 +3,7 @@ var http=require('http');
 http.createServer(function(request,response){
     response.writeHead(200,{'Content-type':'text/html'});
     response.write(
-        '<form action="fileupload" method="post" enctype="multipart/form-data>'
+        '<form action="fileupload" method="post" enctype="multipart/form-data">'
     );
     response.write(
         '<input type="file" name="filetoupload"><br>'
