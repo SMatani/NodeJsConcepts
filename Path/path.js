@@ -3,14 +3,14 @@ const path=require('path');
 //.dirname(_filename)
 
 console.log("Directory of file: "+path.dirname(__filename));
-//output-->Directory of file: C:\Users\839095\OneDrive - Cognizant\Desktop\NodejsTraining\Day1\Path
+//output-->Directory of file: path of your file
 
 console.log("Extension of file: "+path.extname(__filename));
 //OUTPUT-->console.log("Directory of file: "+path.dirname(__filename));
 
 //check if the path format/definition is correct
 //doesn't matter it is present or not
-console.log("The file format is correct :"+path.isAbsolute('C:\\Users\\839095\\OneDrive - Cognizant\\Desktop\\NodejsTraining\\Day1\\Path'));
+console.log("The file format is correct :"+path.isAbsolute('C:\\Users\\yourpath'));
 //output-->true
 
 console.log("The file format is correct :"+path.isAbsolute('\\Server'));
