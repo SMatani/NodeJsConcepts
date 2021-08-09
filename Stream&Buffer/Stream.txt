@@ -1,0 +1,5 @@
+Types:
+readable
+writable
+duplex
+Transform

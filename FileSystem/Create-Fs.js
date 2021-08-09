@@ -17,6 +17,7 @@ filesystem.appendFile('CreateOutput.html','Data in the file id added. Great!!',f
 //writableornot
 filesystem.open('FileFromServer.html','w',function(error){
     if(error) throw error;
+    else
     console.log("Successfully you can write this file");
 })
 

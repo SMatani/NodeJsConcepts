@@ -1,0 +1,4 @@
+ 
+ -- From input.txt file. Hi ,You are reading a file .
+ 
+ --Thank you!

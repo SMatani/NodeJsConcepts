@@ -1,0 +1,9 @@
+fs.stats
+
+stats.isFile()
+stats.isdirectory()
+stats.isblockdevice()
+stats.ischaracterdevice()
+stats.issymbolicdevice()
+stats.isfifo()
+stats.issocket()
